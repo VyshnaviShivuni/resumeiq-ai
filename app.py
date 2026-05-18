@@ -1555,28 +1555,14 @@ if st.session_state.page == "Dashboard":
             """,
             unsafe_allow_html=True,
         )
-
         uploaded_file = st.file_uploader(
             "Upload PDF resume",
             type=["pdf"],
-            label_visibility="collapsed",
-            help="Upload a PDF resume. Max 10MB is recommended.",
         )
 
-        if uploaded_file:
-            size_kb = uploaded_file.size / 1024
-            st.markdown(html_clean(f"""
-                <div class="file-pill">
-                    <div class="pdf-icon">▰</div>
-                    <div>
-                        <div class="file-name">{safe(uploaded_file.name)}</div>
-                        <div class="file-size">{size_kb:.1f} KB</div>
-                    </div>
-                    <div class="check-mark">⊙</div>
-                </div>
-                """), unsafe_allow_html=True)
-
         st.markdown("</div>", unsafe_allow_html=True)
+
+        
 
     with col_jd:
         st.markdown(
