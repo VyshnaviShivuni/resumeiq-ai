@@ -10,6 +10,18 @@ ResumeIQ AI helps job seekers understand how well their resume matches a job des
 
 🔗 [https://vyshnavishivuni-resumeiq-ai.hf.space](https://vyshnavishivuni-resumeiq-ai.hf.space)
 
+
+# 📸 Screenshots
+
+## 🏠 Application Interface
+
+![Home Page](screenshots/homepage.png)
+
+---
+
+## 📊 Analysis Dashboard
+
+![Analysis Dashboard](screenshots/analysis-dashboard.png)
 ---
 
 # ✨ Features
